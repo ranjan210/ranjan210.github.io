@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Sacramento&display=swap");
+body {
+  background: #000000;
+  color: white;
+  font-family: "Montserrat", cursive;
+}
+
+.flex-row{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 97%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  /*margin: 2% 2% 0% 1%;*/
+  top: 1%;
+  left: 1%;
+  position: sticky;
+}
+
+.title {
+  height: 100%;
+  width: 50%;
+  font-size: 35px;
+  font-family: "Sacramento", cursive;
+}
+
+.navmenu {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.small-menu {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1em;
+}
+
+.small-menu > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.small-menu > div:hover {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.contact {
+  background: #c4c4c4;
+  color: black;
+  height: 2rem;
+  width: 10rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.contact:hover {
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+.content {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  width: 50%;
+  height: 50%;
+  top:25%;
+  left:26%;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #626262;
+  z-index: 2;
+}
+
+.box2 {
+  position: absolute;
+  top: 26%;
+  left: 26.5%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  z-index: 1;
+}
