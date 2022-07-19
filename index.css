@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 body {
-  background: #000000;
-  color: white;
+  background: white;
+  color: rgb(82, 82, 82);
   font-family: "Montserrat", cursive;
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+
+}
+
+a:visited{
+  text-decoration: none;
+  outline: none;
+  color: inherit;
 }
 
 .flex-row{
@@ -31,11 +45,10 @@ body {
 }
 
 .header {
-  width: 97%;
+  width: 100%;
   height: 20%;
   display: flex;
   flex-direction: row;
-  /*margin: 2% 2% 0% 1%;*/
   top: 1%;
   left: 1%;
   position: sticky;
@@ -44,8 +57,10 @@ body {
 .title {
   height: 100%;
   width: 50%;
+  margin-left: 1%;
   font-size: 35px;
   font-family: "Sacramento", cursive;
+  cursor: pointer;
 }
 
 .navmenu {
@@ -75,27 +90,17 @@ body {
 }
 
 .small-menu > div:hover {
-  font-size: 1.1em;
+/*  font-size: 1.1em;*/
   cursor: pointer;
+  border-bottom: 1px solid rgb(67, 167, 224);
+  padding-bottom: 1%;
 }
 
-.contact {
-  background: #c4c4c4;
-  color: black;
-  height: 2rem;
-  width: 10rem;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
+.current{
+  color:  rgb(67, 167, 224);
+  
 }
 
-.contact:hover {
-  -webkit-transform: scale(1.04);
-  transform: scale(1.04);
-}
 
 .content {
   width: 100%;
@@ -104,39 +109,50 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-.boxes {
+.box{
+  border:transparent 1px black;
+  border-radius: 10px;
   width: 50%;
-  height: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.box1 {
-  width: 50%;
-  height: 50%;
-  top:25%;
-  left:26%;
-  font-size: 30px;
-  position: absolute;
+  height: 60%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #626262;
-  z-index: 2;
+  font-size: 35px;
 }
 
-.box2 {
-  position: absolute;
-  top: 26%;
-  left: 26.5%;
-  width: 50%;
-  height: 50%;
-  background-color: white;
-  z-index: 1;
+.border-small{
+  margin-top: 0.5%;
+  width: 5ex;
+  border-bottom: 1px solid rgb(67,167,224);
+}
+
+.icons{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  width: 40%;
+}
+
+.small-icon{
+  margin-left: 3%;
+  width: 15%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+.image-icon{
+  width: 100%;
+  object-fit: cover;
+  transition: background-color 0.5s;
+}
+
+.image-icon:hover{
+  background-color: rgba(67, 166, 224);
 }
