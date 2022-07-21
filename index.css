@@ -4,6 +4,7 @@ body {
   background: white;
   color: rgb(82, 82, 82);
   font-family: "Montserrat", cursive;
+  overflow-x: hidden;
 }
 
 a{
@@ -51,7 +52,7 @@ a:visited{
   flex-direction: row;
   top: 1%;
   left: 1%;
-  position: sticky;
+  position: relative;
 }
 
 .title {
@@ -60,7 +61,11 @@ a:visited{
   margin-left: 1%;
   font-size: 35px;
   font-family: "Sacramento", cursive;
+}
+
+.title>text{
   cursor: pointer;
+
 }
 
 .navmenu {
@@ -140,7 +145,7 @@ a:visited{
 }
 
 .small-icon{
-  margin-left: 3%;
+  margin-left: 6%;
   width: 15%;
   object-fit: cover;
   cursor: pointer;
@@ -150,9 +155,10 @@ a:visited{
 .image-icon{
   width: 100%;
   object-fit: cover;
-  transition: background-color 0.5s;
+  transition: background-color 0.5s,transform 0.2s;
 }
 
 .image-icon:hover{
   background-color: rgba(67, 166, 224);
+  transform: scale(1.1);
 }

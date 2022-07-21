@@ -1,42 +1,107 @@
 <html>
-    <head>
-        <link rel="stylesheet"
-        href="index.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="title">
-                <a href="/index.html">Ranjan</a>    
 
-            </div>
-            <div class="navmenu">
-                <div class="small-menu">
+<head>
+    <link rel="stylesheet"
+          href="index.css">
+    <link rel="stylesheet"
+          href="projectstyles.css">
+</head>
 
-                    <div>
-                        <a href="/about.html">
+<body>
+    <div class="header">
+        <div class="title">
+            <a href="/index.html">Ranjan</a>
+
+        </div>
+        <div class="navmenu">
+            <div class="small-menu">
+
+                <div>
+                    <a href="/about.html">
                         About Me
-                    </a>        
-                    </div>
-                    <div class="current">
-                        <a href="/projects.html">
+                    </a>
+                </div>
+                <div class="current">
+                    <a href="/projects.html">
 
                         Projects
-                        </a>
-                    </div>
-                    <div>
-                        <a href="/art.html">
+                    </a>
+                </div>
+                <div>
+                    <a href="/art.html">
 
                         Artworks
-                        </a>
-                    </div>
-                    <div class="contact">
-                        <a href="/contact.html">
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="/contact.html">
                         Contact Me
-                        </a>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="content"
+         style="height: 130% !important;">
+        <span style="font-size: 40px">Projects</span>
+        <div class="border-small"></div>
+        <span style="margin-top: 1%;"> This showcase features a few of my projects that exhibhit my skills.
+        </span>
+        <div class="projects">
+            <div class="project-item"
+                 id="scrabble">
+                <img class="project-logo"
+                     src="assets/scrabble.png">
+                <div class="project-info">
+                    <span style="font-size: 35px;">Scrabble</span>
+                    <div class="project-desc">
+                        Scrabble is a word-based multiplayer board game where you compete against other players to score
+                        points by creating words letter by letter. The website uses <span
+                              style="font-weight: bolder;color: #43A6E0;">React.js</span> as its front-end framework and
+                        a <span style="font-weight: bolder;color: #43A6E0;">Express based Node.js</span> backend along
+                        with the Websockets implementation <span
+                              style="font-weight: bolder;color: #43A6E0;">Socket.io</span> to create real-time
+                        communication.
+                    </div>
+                    <div class="buttons">
+                        <a href="https://scrabbble.netlify.app/"
+                           class="blue-button"
+                           target="_blank"> <button>Live Version</button> </a>
+                        <a href="https://github.com/ranjan210/scrabble-frontend"
+                           class="blue-button"> <button>Source Code</button> </a>
                     </div>
                 </div>
+            </div>
 
+            <div class="project-item"
+                 id="granny-ghostbuster">
+                <img class="project-logo"
+                     src="assets/title.png">
+                <div class="project-info"
+                     style="background-image: url(/assets/gameplay.png);">
+                    <span style="font-size: 35px;">Granny GhostBuster</span>
+                    <div class="project-desc">
+                        Granny GhostBuster is a endless sidescrolling run-n-gun game with a unique twist and charming
+                        pixel art style. It is a solo project developed in <span
+                              style="font-weight: bolder;color: #43A6E0;">Unity</span>
+                        with the animation and art done in<span style="font-weight: bolder;color: #43A6E0;">
+                            Krita.</span>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.Clawon.GrannyGhostBuster"
+                           class="blue-button"
+                           target="_blank"> <button >Live Version</button> </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.Clawon.GrannyGhostBuster"
+                               class="blue-button"
+                               target="_blank"> <button>Source Code</button> </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </body>
+        <span style="margin-top: 2%;"> My lesser refined projects can be viewed on my <a href=""
+               style="color: #43A6E0;">Github </a> repo. </span>
+    </div>
+</body>
+
 </html>

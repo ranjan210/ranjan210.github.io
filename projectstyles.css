@@ -1,0 +1,75 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin-top: 2%;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 22vw;
+  justify-content: flex-start;
+  margin-top: 3%;
+}
+
+.project-logo {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-info {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 2%;
+  background-image: url("assets/scrabble-2.png");
+  background-color: rgba(0, 0, 0, 0.774);
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: white;
+}
+
+.project-desc {
+  width: 90%;
+  font-size: 18px;
+  text-align: left;
+}
+
+.buttons {
+  width: 50%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 5%;
+}
+
+.blue-button {
+  width: 50%;
+  height: 100%;
+  margin-right: 10%;
+
+}
+
+.blue-button > button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(67, 167, 224);
+  color: white;
+  transition: transform 0.2s;
+}
+
+.blue-button > button:hover {
+  background-color: white;
+  color: rgb(67, 167, 224);
+  transform: scale(1.07);
+}
