@@ -1,0 +1,27 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  margin-top: 5%;
+
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  height: 20%;
+  margin-top: 2%;
+}
+
+.skill-item > img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+

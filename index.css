@@ -20,6 +20,7 @@ a:visited{
   color: inherit;
 }
 
+
 .flex-row{
   display: flex;
   width: 100%;
@@ -106,6 +107,9 @@ a:visited{
   
 }
 
+.contact{
+  margin-right: 2%;
+}
 
 .content {
   width: 100%;
