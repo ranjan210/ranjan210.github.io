@@ -1,0 +1,184 @@
+ffmpeg version 5.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.0 (Rev7, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Ranad/AppData/Local/Temp/KritaFFmpegProgress.bSxHVe'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '30'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Projcts/Portfolio/assets/Arts/grandma_jump%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/Projcts/Portfolio/assets/Arts/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Projcts/Portfolio/assets/Arts/grandma_shoott.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Ranad/AppData/Local/Temp/KritaFFmpegProgress.bSxHVe.
+[file @ 000002b9420eb880] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Projcts/Portfolio/assets/Arts/grandma_jump%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 30.
+Successfully parsed a group of options.
+Opening an input file: D:/Projcts/Portfolio/assets/Arts/grandma_jump%04d.png.
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0000.png' for reading
+[file @ 000002b94212f200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b9421373c0] Statistics: 6630 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0001.png' for reading
+[file @ 000002b942139100] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942137240] Statistics: 6630 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0002.png' for reading
+[file @ 000002b94228ed00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b94228ee00] Statistics: 6630 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0003.png' for reading
+[file @ 000002b94228edc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b9421372c0] Statistics: 6630 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0004.png' for reading
+[file @ 000002b94228edc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942141a00] Statistics: 6630 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0005.png' for reading
+[file @ 000002b942141a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942143600] Statistics: 6630 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0006.png' for reading
+[file @ 000002b942143600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942145240] Statistics: 6682 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0007.png' for reading
+[file @ 000002b942146f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942143600] Statistics: 6682 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0008.png' for reading
+[file @ 000002b942143600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942145240] Statistics: 6682 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0009.png' for reading
+[file @ 000002b942143600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942145240] Statistics: 6597 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0010.png' for reading
+[file @ 000002b942143600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942145240] Statistics: 6597 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0011.png' for reading
+[file @ 000002b942143600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942145240] Statistics: 6597 bytes read, 0 seeks
+[image2 @ 000002b94212bec0] Opening 'D:/Projcts/Portfolio/assets/Arts/grandma_jump0012.png' for reading
+[file @ 000002b942143600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b942145240] Statistics: 6620 bytes read, 0 seeks
+Input #0, image2, from 'D:/Projcts/Portfolio/assets/Arts/grandma_jump%04d.png':
+  Duration: 00:00:00.52, start: 0.000000, bitrate: N/A
+  Stream #0:0, 13, 1/25: Video: png, 1 reference frame, rgba(pc), 512x410 [SAR 23622:23622 DAR 256:205], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: input url D:/Projcts/Portfolio/assets/Arts/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/Projcts/Portfolio/assets/Arts/palette.png.
+[NULL @ 000002b942136e00] Opening 'D:/Projcts/Portfolio/assets/Arts/palette.png' for reading
+[file @ 000002b94212bdc0] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 000002b942136e00] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000002b942136e00] Before avformat_find_stream_info() pos: 0 bytes read:166 seeks:0 nb_streams:1
+[png_pipe @ 000002b942136e00] After avformat_find_stream_info() pos: 166 bytes read:166 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/Projcts/Portfolio/assets/Arts/palette.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url D:/Projcts/Portfolio/assets/Arts/grandma_shoott.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/Projcts/Portfolio/assets/Arts/grandma_shoott.gif.
+[file @ 000002b942147940] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 2 times
+[image2 @ 000002b94212bec0] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 13 times
+[graph 0 input from stream 0:0 @ 000002b942210940] Setting 'video_size' to value '512x410'
+[graph 0 input from stream 0:0 @ 000002b942210940] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002b942210940] Setting 'time_base' to value '1/30'
+[graph 0 input from stream 0:0 @ 000002b942210940] Setting 'pixel_aspect' to value '23622/23622'
+[graph 0 input from stream 0:0 @ 000002b942210940] Setting 'frame_rate' to value '30/1'
+[graph 0 input from stream 0:0 @ 000002b942210940] w:512 h:410 pixfmt:rgba tb:1/30 fr:30/1 sar:23622/23622
+[graph 0 input from stream 1:0 @ 000002b942211840] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000002b942211840] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000002b942211840] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000002b942211840] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000002b942211840] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000002b942211840] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 000002b942210d40] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scale_0 @ 000002b942211240] w:iw h:ih flags:'' interl:0
+[Parsed_paletteuse_0 @ 000002b942211040] auto-inserting filter 'auto_scale_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scale_1 @ 000002b942211440] w:iw h:ih flags:'' interl:0
+[Parsed_paletteuse_0 @ 000002b942211040] auto-inserting filter 'auto_scale_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000002b94226b740] query_formats: 5 queried, 4 merged, 2 already done, 0 delayed
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b94235cfc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b942371000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b94238b7c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b942153f80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b942160f40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b94217a000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b94219ed00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b9426f8f40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b942705f00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b94272e680] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b942741680] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b9427646c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b9422572c0] [swscaler @ 000002b942777700] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 000002b942211240] w:512 h:410 fmt:rgba sar:23622/23622 -> w:512 h:410 fmt:bgra sar:1/1 flags:0x0
+[swscaler @ 000002b94278b000] [swscaler @ 000002b94279c000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e31000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e3dfc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e4efc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e61fc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e79000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e8c000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942e9f040] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942eb2040] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942ec5080] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942ed8080] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942eeb0c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b94278b000] [swscaler @ 000002b942efe0c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_1 @ 000002b942211440] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x0
+[Parsed_paletteuse_0 @ 000002b942211040] [framesync @ 000002b942fc3088] Selected 1/150 time base
+[Parsed_paletteuse_0 @ 000002b942211040] [framesync @ 000002b942fc3088] Sync level 2
+Output #0, gif, to 'D:/Projcts/Portfolio/assets/Arts/grandma_shoott.gif':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8(pc, gbr/unknown/unknown, progressive), 512x410 (0x0) [SAR 1:1 DAR 256:205], 0/1, q=2-31, 200 kb/s, 30 fps, 100 tbn
+    Metadata:
+      encoder         : Lavc59.18.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 000002b94213df00] 423x410 image at pos (25;0) [area:512x410]
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.517x    [gif @ 000002b94213df00] 423x410 image at pos (25;0) [area:512x410]
+    Last message repeated 4 times
+[gif @ 000002b94213df00] 488x410 image at pos (12;0) [area:512x410]
+    Last message repeated 5 times
+[gif @ 000002b94213df00] 475x410 image at pos (25;0) [area:512x410]
+[Parsed_paletteuse_0 @ 000002b942211040] [framesync @ 000002b942fc3088] Sync level 0
+[out_0_0 @ 000002b942211640] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   13 fps=0.0 q=-0.0 Lsize=      67kB time=00:00:00.41 bitrate=1344.5kbits/s speed=4.34x    
+[AVIOContext @ 000002b94212ba80] Statistics: 379 bytes written, 0 seeks, 2 writeouts
+video:67kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.029033%
+Input file #0 (D:/Projcts/Portfolio/assets/Arts/grandma_jump%04d.png):
+  Input stream #0:0 (video): 13 packets read (86237 bytes); 13 frames decoded; 
+  Total: 13 packets (86237 bytes) demuxed
+Input file #1 (D:/Projcts/Portfolio/assets/Arts/palette.png):
+  Input stream #1:0 (video): 1 packets read (166 bytes); 1 frames decoded; 
+  Total: 1 packets (166 bytes) demuxed
+Output file #0 (D:/Projcts/Portfolio/assets/Arts/grandma_shoott.gif):
+  Output stream #0:0 (video): 13 frames encoded; 13 packets muxed (68888 bytes); 
+  Total: 13 packets (68888 bytes) muxed
+[AVIOContext @ 000002b94214aa40] Statistics: 68908 bytes written, 0 seeks, 1 writeouts
+14 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000002b942143600] Statistics: 166 bytes read, 0 seeks

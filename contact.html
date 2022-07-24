@@ -5,6 +5,11 @@
           href="index.css">
     <link rel="stylesheet"
           href="contactstyles.css">
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
+            </script>
+    <script src="contact.js">
+    </script>
 </head>
 
 <body>
@@ -43,17 +48,30 @@
         </div>
     </div>
     <div class="content">
+
         <span style="font-size: 40px;">Contact</span>
         <div class="border-small"></div>
-        <span style="margin-top: 1%;"> Reach out to me.
+        <span style="margin-top: 1%;"> Reach out to me @ <span
+                  style="color: rgb(67, 167, 224);">mynamerkt@gmail.com</span>
         </span>
         <div class="form">
-            <div class="small-input"> 
-                <input class="input-small" placeholder="Name"></input>
-                <input class="input-small" placeholder="E-mail"></input>
+            <div class="small-input">
+                <input id="contact-name"
+                       class="input-small"
+                       placeholder="Name"></input>
+                <input id="contact-mail"
+                       class="input-small"
+                       placeholder="E-mail"></input>
             </div>
-             <textarea class="input-big" placeholder="Message"></textarea>
-             <button class="big-button">Send</button>
+            <textarea id="contact-message"
+                      class="input-big"
+                      placeholder="Message"></textarea>
+            <button class="big-button"
+                    onclick="sendEmail()">Send</button>
+            <div class="alert"
+                 id="alert-box">
+                Message Sent.
+            </div>
         </div>
     </div>
 

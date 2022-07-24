@@ -1,0 +1,15 @@
+.pictures{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}   
+
+.pictures > img{
+    width: 175px;
+    object-fit: contain;
+    margin-top: 4%;
+}
