@@ -20,6 +20,7 @@
   width: 40%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .project-info {
@@ -34,6 +35,8 @@
   background-blend-mode: multiply;
   background-size: cover;
   color: white;
+  border-radius: 0px 10px 10px 0px;
+
 }
 
 .project-desc {
@@ -61,15 +64,15 @@
 .blue-button > button {
   width: 100%;
   height: 100%;
-  border: none;
-  border-radius: 2px;
-  background-color: rgb(67, 167, 224);
+  border: 2px solid rgb(67, 167, 224);
+  border-radius: 5px;
+  background-color: transparent;
   color: white;
   transition: transform 0.2s;
 }
 
 .blue-button > button:hover {
-  background-color: white;
-  color: rgb(67, 167, 224);
+  background-color: rgb(67, 167, 224);
+  color: white;
   transform: scale(1.07);
 }
