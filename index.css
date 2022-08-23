@@ -153,6 +153,12 @@ a:visited{
   width: 40%;
 }
 
+.blue-heading{
+  font-size: 20px;
+  color: rgb(67,167,224);
+  margin-top: 2%;
+}
+
 .small-icon{
   margin-left: 6%;
   width: 15%;
@@ -184,5 +190,15 @@ a:visited{
 
   .box{
     height: 25%;
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .blue-heading{
+    font-size: 30px;
+  }
+
+  .icons{
+    width: 70%;
   }
 }
