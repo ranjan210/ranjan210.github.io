@@ -61,3 +61,34 @@
   display: none;
   transition: opacity 3s;
 }
+
+@media only screen and (orientation:portrait){
+
+  .form{
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+    margin-top: 5%;
+  }
+  .small-input{
+    height: 5%;
+    width: 90%;
+  }
+
+  .input-small{
+    width: 40%;
+    font-size: 18px;
+
+  }
+
+  .input-big{
+    height: 15%;
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .big-button{
+    height: 6%;
+    width: 27%;
+    font-size: 20px;
+  }
+}
