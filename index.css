@@ -86,6 +86,7 @@ a:visited{
   justify-content: flex-end;
   align-items: center;
   font-size: 1em;
+  padding-right: 5%;
 }
 
 .small-menu > div {
@@ -93,10 +94,11 @@ a:visited{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  height: 1em;
+  margin-left: 7%;
 }
 
-.small-menu > div:hover {
+.small-menu > div:hover { 
 /*  font-size: 1.1em;*/
   border-bottom: 1px solid rgb(67, 167, 224);
   padding-bottom: 1%;
@@ -112,9 +114,7 @@ a:visited{
   
 }
 
-.contact{
-  margin-right: 2%;
-}
+
 
 .content {
   width: 100%;
