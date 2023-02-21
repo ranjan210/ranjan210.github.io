@@ -1,3 +1,3 @@
-const api ="http://localhost:3000/getBlog"
+const api ="https://portfolio-backend-0j9s.onrender.com/"
 
 export {api};
