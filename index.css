@@ -96,17 +96,28 @@ a:visited{
   justify-content: center;
   height: 1em;
   margin-left: 7%;
+  position: relative;
+  z-index: 2;
 }
 
-.small-menu > div:hover { 
+.small-menu > div:hover {
+  cursor: pointer;
+}
+
+.small-menu > div:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 1%;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.small-menu > div:hover:after { 
 /*  font-size: 1.1em;*/
   border-bottom: 1px solid rgb(67, 167, 224);
-  padding-bottom: 1%;
-}
-
-.small-menu > div > text:hover{
-  cursor: pointer;
-
 }
 
 .current{
